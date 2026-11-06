@@ -63,3 +63,5 @@ Python 依赖版本参考 `requirements.txt` 和 `ok_panel/UPSTREAM_REQUIREMENTS
 原项目未提供覆盖全部原创部分的根级许可证。本存档未替这些部分指定新许可证，也不声称仓库整体采用上述任一第三方许可证。有关存档范围和处理记录见 `PUBLIC_ARCHIVE_NOTES.md`。
 
 `assets/resource/model/ocr/` 的四个文件与项目内记录的 MaaCommonAssets `OCR/ppocr_v5/zh_cn` 内容逐项哈希一致，其 MIT 许可随文件保留；相应 PaddlePaddle [检测模型](https://huggingface.co/PaddlePaddle/PP-OCRv5_mobile_det)及[识别模型](https://huggingface.co/PaddlePaddle/PP-OCRv5_mobile_rec)模型卡声明 Apache 2.0。原始权重到本地 ONNX 的具体转换链未独立验证。
+
+本项目完全免费，仅供机器学习研究；如有问题，请通过 GitHub Issues 联系我删除。
