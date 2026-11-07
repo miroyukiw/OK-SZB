@@ -1,0 +1,10 @@
+{
+  "interface_version": 2,
+  "name": "Shadowverse WB · 龙族控制台",
+  "description": "基于 MaaPracticeBoilerplate 的 Win32 controller/resource 配置适配；卡牌和规则页为本项目实现。",
+  "license": "MIT",
+  "controller": [{"name":"MAA Win32 · 既有窗口链路","type":"Win32","win32":{"class_regex":".*","window_regex":".*","screencap":"PrintWindow","mouse":"PostMessageWithCursorPos","keyboard":"PostMessageWithCursorPos"}}],
+  "resource": [{"name":"本地 OCR 与识别素材","path":["../assets/resource"]}],
+  "task": [{"name":"排位任务","entry":"PythonRankedBatch"},{"name":"大赛任务","entry":"PythonGrandPrixChallenge"},{"name":"周末广场赛（16人）","entry":"PythonWeekendPlaza16"}],
+  "adapter": {"runner":"swb.ranked_batch.execute_batch","mumu_input":"mumu-sdk","grand_prix_runner":"swb.grand_prix_batch.execute_batch","grand_prix_input":"adb","grand_prix_entry_policy":"first_free_or_continue","layout":["task_list","settings","live_view","log"],"note":"由本地面板适配 Python runner；不是可直接交给通用 UI 的 Pipeline entry。"}
+}

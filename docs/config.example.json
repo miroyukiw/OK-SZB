@@ -1,0 +1,11 @@
+{
+  "platform": "mumu",
+  "cli": "<填入本机 MuMu 命令行工具的绝对路径>",
+  "instance": null,
+  "install_root": "<填入本机 MuMu 安装目录的绝对路径>",
+  "sdk": "<填入本机 MuMu SDK DLL 的绝对路径>",
+  "input": "mumu-sdk",
+  "cpu_pick": [null, null],
+  "cpu_label": "<填入用于显示或核验的 CPU 标签>",
+  "target_order": ["<按原策略填写目标顺序>"]
+}

@@ -1,0 +1,216 @@
+{
+  "version": 1,
+  "crop": [
+    70,
+    145,
+    481,
+    554
+  ],
+  "size": [
+    122,
+    121
+  ],
+  "resample": "BICUBIC",
+  "verified": [
+    {
+      "card_id": "10641110",
+      "kind": "common",
+      "input_file": "10641110_common.png",
+      "source_sha256": "b8a6ef77af16751fdd5f96d331f8d849b65252884285ffb5add468722601c9e9",
+      "rgb_sha256": "f97d33351a5175edce7bf21a036a7cca3b49710872ed4bc220ee40a855c65287"
+    },
+    {
+      "card_id": "10641110",
+      "kind": "evo",
+      "input_file": "10641110_evo.png",
+      "source_sha256": "3ebffc9d420cdeec5b40371b0e68fd209e5158f64813bd2e7d37522e6e53cb3c",
+      "rgb_sha256": "f384bab27379cfaeae63c87b21cd60de2846af608b1f42ef9f3ddc1d63d4b6b5"
+    },
+    {
+      "card_id": "10644110",
+      "kind": "common",
+      "input_file": "10644110_common.png",
+      "source_sha256": "904d9c205e834969f82d3290e3ae814b802918cf2aa62c6ede1f2c7a14d4883b",
+      "rgb_sha256": "b11fb8eee45c2999788bc17d4384d02934c4a90312236a047c88f66ba5b58c66"
+    },
+    {
+      "card_id": "10644110",
+      "kind": "evo",
+      "input_file": "10644110_evo.png",
+      "source_sha256": "9762765ac99a08b020b413b1cb8801d4544354055a2605bfa35df821d8072d09",
+      "rgb_sha256": "e7217819b2338253e1289fad24c41d7f556844be4c847d6073bd02cbb48f275a"
+    },
+    {
+      "card_id": "10644120",
+      "kind": "common",
+      "input_file": "10644120_common.png",
+      "source_sha256": "af6f33971592da17bce0316736b1ef582ada975a61398f5875f6a389fffc9375",
+      "rgb_sha256": "e77dd60facff974dc5008ec1e6edf4f3c024cb5baa94276f460dd6c47d1ec31d"
+    },
+    {
+      "card_id": "10644120",
+      "kind": "evo",
+      "input_file": "10644120_evo.png",
+      "source_sha256": "d6912e8bc5bd2a6f1085ff9fef14e89518c0dceae37b8921deecd26606638307",
+      "rgb_sha256": "e001002addad280508d6149d215e26f9273f5e80ccde1833312ff92f8662a12c"
+    },
+    {
+      "card_id": "10741120",
+      "kind": "common",
+      "input_file": "10741120_common.png",
+      "source_sha256": "790b8e4a59eab87a25a5db542bce95ab08fbe37de4993813396b23c5c7606cac",
+      "rgb_sha256": "cd7fe9756a62179343b84c04079f812d7bd46a12d055673d3a7f6553c0310c3b"
+    },
+    {
+      "card_id": "10741120",
+      "kind": "evo",
+      "input_file": "10741120_evo.png",
+      "source_sha256": "a668386d0e27b8c169050c7b842e5f8315002203980fbcf75c38886f0d3e309e",
+      "rgb_sha256": "aab6c69071acd4e28c03ce862d1e9dd8a7a055950875de6ef23921b5f42b5d6b"
+    },
+    {
+      "card_id": "10842120",
+      "kind": "common",
+      "input_file": "10842120_common.png",
+      "source_sha256": "5b6d2a9af8a3760822b7f74bdda3e10d5c69a992421f6d4126b9819e4fa59e88",
+      "rgb_sha256": "0e0e04c2c9e0f8340ca6d52ea05bddfd1d4dc6e4b4e373c5aae7d152a00dd680"
+    },
+    {
+      "card_id": "10842120",
+      "kind": "evo",
+      "input_file": "10842120_evo.png",
+      "source_sha256": "62ad24423e104d8b26c2738955a0ff9b9eca0a2bdee51d126c66ee6313004bed",
+      "rgb_sha256": "98d9a42936913502c63e3809f5032a9ead85044dfd87dfdbbd038e0042981e64"
+    },
+    {
+      "card_id": "10941110",
+      "kind": "common",
+      "input_file": "10941110_common.png",
+      "source_sha256": "2e908576d1896d23ee03ab5578a8600b51e8b3205bea1c8cfb717abb4bb7fe5e",
+      "rgb_sha256": "0614fe423026551cbd54a3d3a42fb7b0e4c5147b0104828e25edd27512fc4566"
+    },
+    {
+      "card_id": "10941110",
+      "kind": "evo",
+      "input_file": "10941110_evo.png",
+      "source_sha256": "5fb0d3192c5650379b9a611255518843ca7512bc5cecf883278e1595d02fdcb8",
+      "rgb_sha256": "7d04ec8edecc0fbc4e1999997e3a1d828c8184e86bafccfe9eff76165373a45c"
+    },
+    {
+      "card_id": "10942110",
+      "kind": "common",
+      "input_file": "10942110_common.png",
+      "source_sha256": "14d40ee2e80dd1b427b815a978c51cc9cc8dea2871a27d0a9c3720b516935b2d",
+      "rgb_sha256": "5d0e234ff5f4e63cd9d87198e53b12d81c4de85a4379a942ef301a8df043a9e3"
+    },
+    {
+      "card_id": "10942110",
+      "kind": "evo",
+      "input_file": "10942110_evo.png",
+      "source_sha256": "1c62734404986b041f096401f6da4da369b1a9584d41ee2f572e7e538a0c9be3",
+      "rgb_sha256": "e20bc78c4a71bd288f889b48a50e7e9cd54be6582bcee4b9c02a10a1ee639020"
+    },
+    {
+      "card_id": "10943110",
+      "kind": "common",
+      "input_file": "10943110_common.png",
+      "source_sha256": "2890bebc012e16c21aba307bd3910d8ea619e9c509d8d3abe7b066ef791f004d",
+      "rgb_sha256": "1caccd4f5437dbe5296b144d4195e11e9fdf1c2cd7ac9e3bbc0aa16b70378c7f"
+    },
+    {
+      "card_id": "10943110",
+      "kind": "evo",
+      "input_file": "10943110_evo.png",
+      "source_sha256": "afb485afe17f969167410162fe8937231beb233de0864b4fdb12afe8fbc8436a",
+      "rgb_sha256": "62b5b26794220dc87f8581f2a4dbcb2c3e5a44ad124402a81d72b011fa76f330"
+    },
+    {
+      "card_id": "10944110",
+      "kind": "common",
+      "input_file": "10944110_common.png",
+      "source_sha256": "07746d4d8acffdf9d4728f102219ac34394c30e345827f99813998536f60d94f",
+      "rgb_sha256": "700fe8154d51b627194cb2793eeb4bb05eb544be8aa348c137546c1aa0886806"
+    },
+    {
+      "card_id": "10944110",
+      "kind": "evo",
+      "input_file": "10944110_evo.png",
+      "source_sha256": "e3d7f994bb433038d99d9c28d6e94d39c14e3276843382c09db29630262435e4",
+      "rgb_sha256": "72501b8c57c121462c21f4c462e282db3b14f68748152380c58aefc7741fc75a"
+    },
+    {
+      "card_id": "11042120",
+      "kind": "common",
+      "input_file": "11042120_common.png",
+      "source_sha256": "1102bb7324dd80ff0c116d9bde0d3947adde3ac0784c533b632c34faf527ac04",
+      "rgb_sha256": "8abf824b73fa85ca75fa829c0776e8ddaae2b5a52357b39476fcdb56428978e4"
+    },
+    {
+      "card_id": "11042120",
+      "kind": "evo",
+      "input_file": "11042120_evo.png",
+      "source_sha256": "07f87561172501e6185a79c6e616132e250e5e8ba6c2f8637824601d57b96ca4",
+      "rgb_sha256": "8bfd6df61114a6f84c658df38aed233db1c2a06a1b824d847db3d266ea74c326"
+    },
+    {
+      "card_id": "11044120",
+      "kind": "common",
+      "input_file": "11044120_common.png",
+      "source_sha256": "124c6dd1d680e88d8bbde7f5a897a74c835b8d9923a90e60514d607490b4e37c",
+      "rgb_sha256": "6f3fdbd7e0f0e556610eb9674d4a228ca9b2fa6505c0e33a062173138e0ec789"
+    },
+    {
+      "card_id": "11044120",
+      "kind": "evo",
+      "input_file": "11044120_evo.png",
+      "source_sha256": "ffb8e7bd6941e86f45a8c0eb6af5e81b8dd89b1615691e307269e25659f0074a",
+      "rgb_sha256": "6830d9f5f3b7474b9e1851e2c1d9f3a79de2f723d6beedf616c7b575e4d4e87a"
+    },
+    {
+      "card_id": "90041110",
+      "kind": "common",
+      "input_file": "90041110_common.png",
+      "source_sha256": "d47e9c023d201db8886df9fa9d219e1ab5622f451aaba71994a47a35a01db840",
+      "rgb_sha256": "370f9b000313a5683e408d133c4053c2818be9185d1ea16d9de21bc0fa6eb8c0"
+    },
+    {
+      "card_id": "90041110",
+      "kind": "evo",
+      "input_file": "90041110_evo.png",
+      "source_sha256": "5941e13bfaab0dfe9947e13716e6a2c7cb39975986dff0359ef8cbdd35178567",
+      "rgb_sha256": "bde89fba7b2f81fd2c3788ee93ceb464bd95c067b1f0238f9bd1115765a9643b"
+    }
+  ],
+  "without_reference": [
+    {
+      "card_id": "10641310",
+      "kind": "common",
+      "input_file": "10641310_common.png",
+      "source_sha256": "d599d754b67a8d9b15c47a5e2657af85124845dee60469503e26423390edb0cd"
+    },
+    {
+      "card_id": "10642310",
+      "kind": "common",
+      "input_file": "10642310_common.png",
+      "source_sha256": "32099507ac4f1c03ef16b95ca09a1995405e3f66c5ed8e4924f005fe40b3c6af"
+    },
+    {
+      "card_id": "10941310",
+      "kind": "common",
+      "input_file": "10941310_common.png",
+      "source_sha256": "64a74fd57dc16ed16e1e56f6b756190abddceb2d56a20deb5fba374afeeb867f"
+    },
+    {
+      "card_id": "10943310",
+      "kind": "common",
+      "input_file": "10943310_common.png",
+      "source_sha256": "5da48f0f34837392f5090ef57fcff08d67cef84cba166fa01144f29b24fdf4dd"
+    },
+    {
+      "card_id": "90044330",
+      "kind": "common",
+      "input_file": "90044330_common.png",
+      "source_sha256": "5f23d523943334e08e11f9369049936d3f2bcbea607095a0f4a035792dfa4b6b"
+    }
+  ]
+}

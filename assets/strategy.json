@@ -1,0 +1,3189 @@
+{
+  "schema_version": 2,
+  "editable": true,
+  "original_database_modified": false,
+  "confidence_levels": [
+    "verified",
+    "card_text_inference",
+    "pending",
+    "unknown_generic"
+  ],
+  "settings": {
+    "low_health": 10,
+    "healthy_health": 12,
+    "wide_board": 3,
+    "beam_width": 40
+  },
+  "cards": {
+    "10941110": {
+      "name": "碎裂的盗匪",
+      "aliases": [
+        "碎裂的盗匪",
+        "寸裂的盜匪"
+      ],
+      "threat_level": 2,
+      "reason": "1费1/1；上回合我方随从攻击过敌方主战者则入场获得疾驰；谢幕曲回手1张无谢幕曲同名卡，适合做弃牌源或连击抢血。",
+      "tags": [
+        "combo_storm"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=10941110"
+    },
+    "10941310": {
+      "name": "幼龙闹脾气",
+      "aliases": [
+        "幼龙闹脾气",
+        "幼龍發怒"
+      ],
+      "threat_level": 2,
+      "reason": "1费召唤1/1威慑炽炎幼龙；爆能强化3额外随机打敌方随从3伤。注意在PP>=3时若想省费需先出其他牌把PP降至1~2再打出。",
+      "tags": [
+        "intimidate_spawn"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=10941310"
+    },
+    "90041110": {
+      "name": "炽炎幼龙",
+      "aliases": [
+        "炽炎幼龙",
+        "熾炎幼龍"
+      ],
+      "threat_level": 2,
+      "reason": "1费1/1威慑衍生物，无法被敌方随从攻击，极易活到下回合打脸触发连击。",
+      "tags": [
+        "intimidate_token"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "intimidate": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=90041110"
+    },
+    "10644120": {
+      "name": "古旧天刀·波菈莱",
+      "aliases": [
+        "古旧天刀·波菈莱",
+        "古老天刀‧沃拉萊"
+      ],
+      "threat_level": 3,
+      "reason": "2费0/2必杀；被舍弃时直接免费召唤入场；进化拿1张天刀深渊，超进化拿3张。T0弃牌标的与大怪必杀解。",
+      "tags": [
+        "discard_summon_bane"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "bane": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=10644120"
+    },
+    "90044330": {
+      "name": "天刀深渊",
+      "aliases": [
+        "天刀深渊",
+        "天刀的深淵"
+      ],
+      "threat_level": 3,
+      "reason": "2费衍生法术；被舍弃或打出时均对敌方主战者造成1点伤害并回复我方主战者1点生命值。T0弃牌直伤组件。",
+      "tags": [
+        "discard_burn"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=90044330"
+    },
+    "10842120": {
+      "name": "满面笑容的烹饪·琪米卡",
+      "aliases": [
+        "满面笑容的烹饪·琪米卡",
+        "喜笑顏開的烹飪‧希美加"
+      ],
+      "threat_level": 3,
+      "reason": "2费2/1；入场与进化时均舍弃1张手牌、抽1张牌并回1血。核心弃牌发动机。",
+      "tags": [
+        "discard_engine"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=10842120"
+    },
+    "10942110": {
+      "name": "绝倒的袭击者",
+      "aliases": [
+        "绝倒的袭击者",
+        "狂樂的襲擊者"
+      ],
+      "threat_level": 3,
+      "reason": "2费1/2疾驰；攻击时若上回合我方随从攻击过主战者则本回合+1/+0（打2）。核心连击疾驰抢血组件。",
+      "tags": [
+        "storm_attacker"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "storm": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=10942110"
+    },
+    "10943310": {
+      "name": "利牙",
+      "aliases": [
+        "利牙",
+        "恩奇亞"
+      ],
+      "threat_level": 2,
+      "reason": "2费法术；对敌方全体随从分配3伤，若上回合我方随从攻击过主战者则改为分配6伤。高效低费扫场。",
+      "tags": [
+        "aoe_removal"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=10943310"
+    },
+    "10641110": {
+      "name": "决断的龙人",
+      "aliases": [
+        "决断的龙人",
+        "果斷的龍人"
+      ],
+      "threat_level": 3,
+      "reason": "3费2/3；入场舍弃1张手牌，谢幕曲抽2张牌。核心弃牌与续航随从。",
+      "tags": [
+        "discard_draw"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=10641110"
+    },
+    "11042120": {
+      "name": "侦察龙人",
+      "aliases": [
+        "侦察龙人",
+        "偵察的龍人"
+      ],
+      "threat_level": 4,
+      "reason": "3费1/3潜行；攻击时随机使我方战场上1个进化前的其他随从免费进化。核心连击保持者与免费进化发动机。",
+      "tags": [
+        "stealth_evolver"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "stealth": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11042120"
+    },
+    "10741120": {
+      "name": "载运飞龙",
+      "aliases": [
+        "载运飞龙",
+        "運載翼龍"
+      ],
+      "threat_level": 4,
+      "reason": "4费3/2；入场使我方场上1个其他随从+2/+2；进化时使手牌中1张随从+2/+2。场面与手牌疾驰双Buff核心。",
+      "tags": [
+        "buff_engine"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=10741120"
+    },
+    "10641310": {
+      "name": "天刀授予",
+      "aliases": [
+        "天刀授予",
+        "授予天刀"
+      ],
+      "threat_level": 3,
+      "reason": "4费法术；被舍弃时若费用为4则回手1张2费天刀授予；使我方场上1个随从+2/+2。4费时为T0弃牌标的，2费时为高效打脸/站场Buff。",
+      "tags": [
+        "discard_buff"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=10641310"
+    },
+    "10943110": {
+      "name": "尘土的不法者",
+      "aliases": [
+        "尘土的不法者",
+        "塵土的不法者"
+      ],
+      "threat_level": 4,
+      "reason": "5费4/4；入场随机打敌方随从4伤（上回合随从打过脸则发动2次共8伤）；进化时召唤1个绝倒的袭击者（1/2疾驰）。中盘返场+抢血核心。",
+      "tags": [
+        "tempo_swing"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=10943110"
+    },
+    "11044120": {
+      "name": "龙惧·吉尔沃",
+      "aliases": [
+        "龙惧·吉尔沃",
+        "龍魂忌憚‧吉爾沃"
+      ],
+      "threat_level": 5,
+      "reason": "6费4/4；入场按敌方主战者已损失生命值对敌方全体随从分配伤害；超进化时获得疾驰与守护（7/7疾驰守护）。扫场+超进化斩杀核心。",
+      "tags": [
+        "aoe_super_storm"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "ward": true,
+        "storm": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11044120"
+    },
+    "10644110": {
+      "name": "断头的斩姬·相枛津",
+      "aliases": [
+        "断头的斩姬·相枛津",
+        "斷頭的斬姬‧佐嘉鶴茉津"
+      ],
+      "threat_level": 5,
+      "reason": "7费5/4疾驰、必杀、灵气；入场舍弃1张手牌并将2张1费赤流加入手牌。高额疾驰斩杀+过墙核心。",
+      "tags": [
+        "lethal_storm"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "storm": true,
+        "bane": true,
+        "aura": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=10644110"
+    },
+    "10642310": {
+      "name": "赤流",
+      "aliases": [
+        "赤流",
+        "赤色奔流"
+      ],
+      "threat_level": 3,
+      "reason": "1费衍生法术；舍弃1张手牌并指定破坏敌方1个随从。低费强力过墙解牌。",
+      "tags": [
+        "targeted_destroy"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=10642310"
+    },
+    "10944110": {
+      "name": "穿孔的罪人·安缇马丽亚",
+      "aliases": [
+        "穿孔的罪人·安缇马丽亚",
+        "穿孔的罪人‧安媞馬麗亞"
+      ],
+      "threat_level": 5,
+      "reason": "7费6/5突进、无视守护；若上回合我方随从攻击过主战者则入场获得疾驰。无视守护穿墙斩杀王牌。",
+      "tags": [
+        "pierce_ward_lethal"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "rush": true,
+        "ignore_ward": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=10944110"
+    },
+    "90011310": {
+      "name": "森林的奥秘",
+      "aliases": [
+        "森林的奥秘",
+        "森林的奧祕"
+      ],
+      "cost": 0,
+      "type": "spell",
+      "atk": 0,
+      "life": 0,
+      "rarity": "Bronze",
+      "card_set_id": "90000",
+      "threat_level": 2,
+      "reason": "回复自己的主战者1点生命值。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=90011310"
+    },
+    "90021350": {
+      "name": "闪耀的金币",
+      "aliases": [
+        "闪耀的金币",
+        "閃耀的金幣"
+      ],
+      "cost": 0,
+      "type": "spell",
+      "atk": 0,
+      "life": 0,
+      "rarity": "Bronze",
+      "card_set_id": "90000",
+      "threat_level": 2,
+      "reason": "【模式】选择1个能力发动。\n（1）抽取1张卡牌。\n（2）对对手的战场上的随机1个随从造成2点伤害。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=90021350"
+    },
+    "90051110": {
+      "name": "骸骨士兵",
+      "aliases": [
+        "骸骨士兵",
+        "骷髏士兵"
+      ],
+      "cost": 0,
+      "type": "follower",
+      "atk": 1,
+      "life": 1,
+      "rarity": "Bronze",
+      "card_set_id": "90000",
+      "threat_level": 2,
+      "reason": "",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=90051110"
+    },
+    "11003210": {
+      "name": "理想国·涅格尔赫亚",
+      "aliases": [
+        "理想国·涅格尔赫亚",
+        "理想鄉‧尼坎赫亞"
+      ],
+      "cost": 1,
+      "type": "amulet",
+      "atk": 0,
+      "life": 0,
+      "rarity": "Gold",
+      "card_set_id": "10010",
+      "threat_level": 3,
+      "reason": "【证据】\n本卡牌在战场上消失时，回复自己的主战者2点生命值。\n费用1【启动】抽取1张卡牌。使自己的战场上的证据-1。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11003210"
+    },
+    "90001210": {
+      "name": "神域的物证",
+      "aliases": [
+        "神域的物证",
+        "神域的物證"
+      ],
+      "cost": 1,
+      "type": "amulet",
+      "atk": 0,
+      "life": 0,
+      "rarity": "Bronze",
+      "card_set_id": "90000",
+      "threat_level": 2,
+      "reason": "【证据】\n费用1【启动】抽取1张卡牌。使自己的战场上的证据-1。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=90001210"
+    },
+    "11012110": {
+      "name": "好奇的老鼠",
+      "aliases": [
+        "好奇的老鼠",
+        "好奇的探鼠"
+      ],
+      "cost": 1,
+      "type": "follower",
+      "atk": 1,
+      "life": 1,
+      "rarity": "Silver",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "本随从进入战场时，若自己的战场上的其他原始费用为1的卡牌的张数为2张或以上，则本随从+2/+1。\n【突进】",
+      "tags": [
+        "rush"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "rush": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11012110"
+    },
+    "90011110": {
+      "name": "妖精",
+      "aliases": [
+        "妖精"
+      ],
+      "cost": 1,
+      "type": "follower",
+      "atk": 1,
+      "life": 1,
+      "rarity": "Bronze",
+      "card_set_id": "90000",
+      "threat_level": 2,
+      "reason": "【突进】",
+      "tags": [
+        "rush"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "rush": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=90011110"
+    },
+    "90021120": {
+      "name": "铁甲骑士",
+      "aliases": [
+        "铁甲骑士",
+        "鐵甲騎士"
+      ],
+      "cost": 1,
+      "type": "follower",
+      "atk": 2,
+      "life": 2,
+      "rarity": "Bronze",
+      "card_set_id": "90000",
+      "threat_level": 2,
+      "reason": "",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=90021120"
+    },
+    "11023310": {
+      "name": "诺·莱芙的问答",
+      "aliases": [
+        "诺·莱芙的问答",
+        "諾萊芬的問答"
+      ],
+      "cost": 1,
+      "type": "spell",
+      "atk": 0,
+      "life": 0,
+      "rarity": "Gold",
+      "card_set_id": "10010",
+      "threat_level": 3,
+      "reason": "召唤1张『神域的物证』。若本回合中自己【启动】过证据·护符，则召唤1个『纯真卖报人』。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11023310"
+    },
+    "11021110": {
+      "name": "纯真卖报人",
+      "aliases": [
+        "纯真卖报人",
+        "純真的報童"
+      ],
+      "cost": 2,
+      "type": "follower",
+      "atk": 2,
+      "life": 1,
+      "rarity": "Bronze",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "在手牌中发动。自己【启动】证据·护符时，本随从的攻击力与生命值交换。本随从+1/+0。\n【爆能强化_4】召唤1个本随从的复制随从。\n【突进】\n【谢幕曲】召唤1张『神域的物证』。",
+      "tags": [
+        "rush"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "rush": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11021110"
+    },
+    "90021310": {
+      "name": "黄金短剑",
+      "aliases": [
+        "黄金短剑",
+        "黃金短劍"
+      ],
+      "cost": 1,
+      "type": "spell",
+      "atk": 0,
+      "life": 0,
+      "rarity": "Bronze",
+      "card_set_id": "90000",
+      "threat_level": 2,
+      "reason": "选择对手的战场上的1个随从或对手的主战者，对其造成1点伤害。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=90021310"
+    },
+    "90021320": {
+      "name": "黄金之杯",
+      "aliases": [
+        "黄金之杯",
+        "黃金之杯"
+      ],
+      "cost": 1,
+      "type": "spell",
+      "atk": 0,
+      "life": 0,
+      "rarity": "Bronze",
+      "card_set_id": "90000",
+      "threat_level": 2,
+      "reason": "回复自己的主战者2点生命值。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=90021320"
+    },
+    "90021340": {
+      "name": "黄金项链",
+      "aliases": [
+        "黄金项链",
+        "黃金首飾"
+      ],
+      "cost": 1,
+      "type": "spell",
+      "atk": 0,
+      "life": 0,
+      "rarity": "Bronze",
+      "card_set_id": "90000",
+      "threat_level": 2,
+      "reason": "选择自己的战场上的1个随从，使其+0/+1且获得【守护】。",
+      "tags": [
+        "ward"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "ward": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=90021340"
+    },
+    "90031110": {
+      "name": "泥尘巨像",
+      "aliases": [
+        "泥尘巨像",
+        "泥塵巨像"
+      ],
+      "cost": 1,
+      "type": "follower",
+      "atk": 2,
+      "life": 2,
+      "rarity": "Bronze",
+      "card_set_id": "90000",
+      "threat_level": 2,
+      "reason": "",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=90031110"
+    },
+    "11032310": {
+      "name": "解谜旋律",
+      "aliases": [
+        "解谜旋律",
+        "解謎旋律"
+      ],
+      "cost": 1,
+      "type": "spell",
+      "atk": 0,
+      "life": 0,
+      "rarity": "Silver",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "召唤1张『神域的物证』。若本回合中自己【启动】过护符，则对对手的战场上的随机1个随从造成3点伤害。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11032310"
+    },
+    "90031210": {
+      "name": "大地之魔片",
+      "aliases": [
+        "大地之魔片"
+      ],
+      "cost": 1,
+      "type": "amulet",
+      "atk": 0,
+      "life": 0,
+      "rarity": "Bronze",
+      "card_set_id": "90000",
+      "threat_level": 2,
+      "reason": "【土之印】\n费用1【启动】使自己的战场上的土之印+1。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=90031210"
+    },
+    "11041110": {
+      "name": "天噬暴行者",
+      "aliases": [
+        "天噬暴行者"
+      ],
+      "cost": 1,
+      "type": "follower",
+      "atk": 1,
+      "life": 1,
+      "rarity": "Bronze",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "【突进】\n【谢幕曲】将1张『神域的物证』加入手牌。",
+      "tags": [
+        "rush"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "rush": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11041110"
+    },
+    "90051130": {
+      "name": "怨灵",
+      "aliases": [
+        "怨灵",
+        "怨靈"
+      ],
+      "cost": 1,
+      "type": "follower",
+      "atk": 1,
+      "life": 1,
+      "rarity": "Bronze",
+      "card_set_id": "90000",
+      "threat_level": 3,
+      "reason": "【疾驰】\n离场时，使本随从消失。\n自己的回合结束时，使本随从消失。",
+      "tags": [
+        "storm"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "storm": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=90051130"
+    },
+    "11051310": {
+      "name": "灵魂逃亡",
+      "aliases": [
+        "灵魂逃亡",
+        "靈魂脫逃"
+      ],
+      "cost": 1,
+      "type": "spell",
+      "atk": 0,
+      "life": 0,
+      "rarity": "Bronze",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "将1张『怨灵』加入手牌。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11051310"
+    },
+    "11052310": {
+      "name": "听取遗言",
+      "aliases": [
+        "听取遗言",
+        "聽取遺言"
+      ],
+      "cost": 1,
+      "type": "spell",
+      "atk": 0,
+      "life": 0,
+      "rarity": "Silver",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "召唤1张『神域的物证』。将1张『神域的物证』加入手牌。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11052310"
+    },
+    "11053310": {
+      "name": "诺克坦的审讯",
+      "aliases": [
+        "诺克坦的审讯",
+        "洛克塔的審問"
+      ],
+      "cost": 1,
+      "type": "spell",
+      "atk": 0,
+      "life": 0,
+      "rarity": "Gold",
+      "card_set_id": "10010",
+      "threat_level": 3,
+      "reason": "对对手的战场上的所有随从造成X点伤害。X为自己的战场上的证据数。使自己的战场上的所有证据·护符消失。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11053310"
+    },
+    "90071120": {
+      "name": "改良型·悬丝傀儡",
+      "aliases": [
+        "改良型·悬丝傀儡",
+        "改良型‧懸絲人偶"
+      ],
+      "cost": 1,
+      "type": "follower",
+      "atk": 3,
+      "life": 3,
+      "rarity": "Bronze",
+      "card_set_id": "90000",
+      "threat_level": 2,
+      "reason": "【突进】\n对手的回合结束时，破坏本卡牌。",
+      "tags": [
+        "rush"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "rush": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=90071120"
+    },
+    "90071140": {
+      "name": "古老的创造物",
+      "aliases": [
+        "古老的创造物",
+        "古老的創造物",
+        "理想射手",
+        "賽涅修茲"
+      ],
+      "cost": 1,
+      "type": "follower",
+      "atk": 3,
+      "life": 1,
+      "rarity": "Bronze",
+      "card_set_id": "90000",
+      "threat_level": 2,
+      "reason": "【突进】",
+      "tags": [
+        "rush"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "rush": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=90071140"
+    },
+    "11071310": {
+      "name": "组装失败",
+      "aliases": [
+        "组装失败",
+        "組裝失敗"
+      ],
+      "cost": 1,
+      "type": "spell",
+      "atk": 0,
+      "life": 0,
+      "rarity": "Bronze",
+      "card_set_id": "10010",
+      "threat_level": 3,
+      "reason": "将1张『改良型·悬丝傀儡』加入手牌，使其获得【毁灭】【守护】中随机1个能力。",
+      "tags": [
+        "bane",
+        "ward"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "ward": true,
+        "bane": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11071310"
+    },
+    "11073310": {
+      "name": "最凶恶的收容",
+      "aliases": [
+        "最凶恶的收容",
+        "極惡犯的羈押"
+      ],
+      "cost": 1,
+      "type": "spell",
+      "atk": 0,
+      "life": 0,
+      "rarity": "Gold",
+      "card_set_id": "10010",
+      "threat_level": 3,
+      "reason": "【融合】护符\n与本卡牌【融合】时，召唤1张『神域的物证』。\n回复自己的主战者2点生命值。使自己的战场上的证据-2，破坏对手的战场上的随机1个攻击力最大的随从。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11073310"
+    },
+    "11001110": {
+      "name": "爱意天使·艾克夏丝",
+      "aliases": [
+        "爱意天使·艾克夏丝",
+        "愛天使‧艾可西思"
+      ],
+      "cost": 2,
+      "type": "follower",
+      "atk": 2,
+      "life": 1,
+      "rarity": "Bronze",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "【入场曲】将1张『神域的物证』加入手牌。\n【突进】",
+      "tags": [
+        "rush"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "rush": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11001110"
+    },
+    "11011110": {
+      "name": "优雅看护者",
+      "aliases": [
+        "优雅看护者",
+        "優雅的照護者"
+      ],
+      "cost": 2,
+      "type": "follower",
+      "atk": 2,
+      "life": 2,
+      "rarity": "Bronze",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "【入场曲】召唤1张『神域的物证』。\n【进化时】若自己的战场上的原始费用为1的卡牌的张数为2张或以上，则回复自己的主战者2点生命值。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11011110"
+    },
+    "11012310": {
+      "name": "鸟兽述怀",
+      "aliases": [
+        "鸟兽述怀",
+        "鳥獸的陳述"
+      ],
+      "cost": 2,
+      "type": "spell",
+      "atk": 0,
+      "life": 0,
+      "rarity": "Silver",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "召唤1张『神域的物证』。使自己获得『纹章：鸟兽述怀』。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11012310"
+    },
+    "11022310": {
+      "name": "表里的现场验证",
+      "aliases": [
+        "表里的现场验证",
+        "表裡之現場勘驗"
+      ],
+      "cost": 2,
+      "type": "spell",
+      "atk": 0,
+      "life": 0,
+      "rarity": "Silver",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "选择对手的战场上的1个随从，对其造成5点伤害。若本回合中自己【启动】过证据·护符，则改为10点伤害。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11022310"
+    },
+    "11031120": {
+      "name": "戏法女巫",
+      "aliases": [
+        "戏法女巫",
+        "戲法巫師"
+      ],
+      "cost": 2,
+      "type": "follower",
+      "atk": 2,
+      "life": 2,
+      "rarity": "Bronze",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "【入场曲】【模式】选择1个能力发动。\n（1）【土之秘术_1】对对手的战场上的随机1个随从造成2点伤害。\n（2）使自己的战场上的土之印+2。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11031120"
+    },
+    "11033310": {
+      "name": "诺茵华薇儿的审讯",
+      "aliases": [
+        "诺茵华薇儿的审讯",
+        "奈茵赫倫的審問"
+      ],
+      "cost": 2,
+      "type": "spell",
+      "atk": 0,
+      "life": 0,
+      "rarity": "Gold",
+      "card_set_id": "10010",
+      "threat_level": 3,
+      "reason": "将1张『神域的物证』加入手牌。使自己获得『纹章：诺茵华薇儿的审讯』。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11033310"
+    },
+    "11042310": {
+      "name": "收集的显现",
+      "aliases": [
+        "收集的显现",
+        "蒐集之顯露"
+      ],
+      "cost": 2,
+      "type": "spell",
+      "atk": 0,
+      "life": 0,
+      "rarity": "Silver",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "对对手的战场上的随机1个随从造成4点伤害。若自己的手牌中有证据·护符，则舍弃其中随机1张。抽取1张原始费用为5或以上的卡牌。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11042310"
+    },
+    "11051110": {
+      "name": "告别入殓师",
+      "aliases": [
+        "告别入殓师",
+        "告別之入殮師"
+      ],
+      "cost": 2,
+      "type": "follower",
+      "atk": 2,
+      "life": 2,
+      "rarity": "Bronze",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "【谢幕曲】召唤1张『神域的物证』。将1张『神域的物证』加入手牌。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11051110"
+    },
+    "11054120": {
+      "name": "末日变换·格莫瑞",
+      "aliases": [
+        "末日变换·格莫瑞",
+        "扭轉厄運‧格莫瑞"
+      ],
+      "cost": 2,
+      "type": "follower",
+      "atk": 1,
+      "life": 3,
+      "rarity": "Legend",
+      "card_set_id": "10010",
+      "threat_level": 4,
+      "reason": "【守护】\n【谢幕曲】【唤灵_2】抽取1张卡牌。\n【进化时】使自己获得『纹章：末日变换·格莫瑞』。",
+      "tags": [
+        "ward"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "ward": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11054120"
+    },
+    "11061110": {
+      "name": "地害加工者",
+      "aliases": [
+        "地害加工者"
+      ],
+      "cost": 2,
+      "type": "follower",
+      "atk": 3,
+      "life": 1,
+      "rarity": "Bronze",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "【谢幕曲】将2张『神域的物证』加入手牌。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11061110"
+    },
+    "90061140": {
+      "name": "地害之兔",
+      "aliases": [
+        "地害之兔"
+      ],
+      "cost": 2,
+      "type": "follower",
+      "atk": 1,
+      "life": 1,
+      "rarity": "Bronze",
+      "card_set_id": "90000",
+      "threat_level": 2,
+      "reason": "本随从进入战场时，使自己的手牌中的随机1张费用最小的卡牌消失。本随从进化。\n【谢幕曲】对对手的主战者造成2点伤害。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=90061140"
+    },
+    "11071110": {
+      "name": "人灭执事",
+      "aliases": [
+        "人灭执事",
+        "人滅執事"
+      ],
+      "cost": 2,
+      "type": "follower",
+      "atk": 2,
+      "life": 2,
+      "rarity": "Bronze",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "【守护】\n【谢幕曲】将2张『神域的物证』加入手牌。",
+      "tags": [
+        "ward"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "ward": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11071110"
+    },
+    "11002110": {
+      "name": "信仰天使·迪纳梅斯",
+      "aliases": [
+        "信仰天使·迪纳梅斯",
+        "虔心天使‧杜那莫斯"
+      ],
+      "cost": 3,
+      "type": "follower",
+      "atk": 2,
+      "life": 2,
+      "rarity": "Silver",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "【入场曲】选择对手的战场上的1个随从，对其造成2点伤害。将1张『神域的物证』加入手牌。\n【进化时】发动与【入场曲】相同的能力。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11002110"
+    },
+    "11012120": {
+      "name": "花园精灵",
+      "aliases": [
+        "花园精灵",
+        "花園精靈"
+      ],
+      "cost": 3,
+      "type": "follower",
+      "atk": 0,
+      "life": 3,
+      "rarity": "Silver",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "自己的回合结束时，将1张『森林的奥秘』和1张『妖精』加入手牌。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11012120"
+    },
+    "11011310": {
+      "name": "自然的再生",
+      "aliases": [
+        "自然的再生"
+      ],
+      "cost": 3,
+      "type": "spell",
+      "atk": 0,
+      "life": 0,
+      "rarity": "Bronze",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "召唤1个『妖精』，使其进化。\n【爆能强化_6】改为召唤3个。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11011310"
+    },
+    "11013310": {
+      "name": "诺榭的审讯",
+      "aliases": [
+        "诺榭的审讯",
+        "諾雪的審問"
+      ],
+      "cost": 3,
+      "type": "spell",
+      "atk": 0,
+      "life": 0,
+      "rarity": "Gold",
+      "card_set_id": "10010",
+      "threat_level": 3,
+      "reason": "对对手的战场上的随机1个随从造成5点伤害。将1张『好奇的老鼠』加入手牌。若自己的战场上的原始费用为1的卡牌的张数为2张或以上，则使其获得【疾驰】。",
+      "tags": [
+        "storm"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "storm": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11013310"
+    },
+    "11022110": {
+      "name": "俏皮设计师",
+      "aliases": [
+        "俏皮设计师",
+        "淘氣的設計師"
+      ],
+      "cost": 3,
+      "type": "follower",
+      "atk": 1,
+      "life": 4,
+      "rarity": "Silver",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "在手牌中发动。自己【启动】证据·护符时，本随从的攻击力与生命值交换。本随从+1/+0。\n【入场曲】选择对手的战场上的1个随从，对其造成X点伤害。X为本随从的攻击力。召唤1张『神域的物证』。\n【进化时】召唤1个『纯真卖报人』。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11022110"
+    },
+    "11024120": {
+      "name": "千金大参谋·阿尔梅莉洁",
+      "aliases": [
+        "千金大参谋·阿尔梅莉洁",
+        "千金大參謀‧愛梅莉婕"
+      ],
+      "cost": 3,
+      "type": "follower",
+      "atk": 2,
+      "life": 3,
+      "rarity": "Legend",
+      "card_set_id": "10010",
+      "threat_level": 4,
+      "reason": "【入场曲】将1张『闪耀的金币』加入手牌。\n【进化时】使自己获得『纹章：千金大参谋·阿尔梅莉洁』。\n【超进化时】使自己的『纹章：千金大参谋·阿尔梅莉洁』的倒计数+2。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11024120"
+    },
+    "11031110": {
+      "name": "碎心勤务员",
+      "aliases": [
+        "碎心勤务员",
+        "費心的雜役"
+      ],
+      "cost": 3,
+      "type": "follower",
+      "atk": 3,
+      "life": 3,
+      "rarity": "Bronze",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "【入场曲】召唤1张『神域的物证』。\n【守护】\n自己【启动】护符时，本随从+1/+1。",
+      "tags": [
+        "ward"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "ward": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11031110"
+    },
+    "90031120": {
+      "name": "守护者巨像",
+      "aliases": [
+        "守护者巨像",
+        "守護者巨像"
+      ],
+      "cost": 3,
+      "type": "follower",
+      "atk": 3,
+      "life": 3,
+      "rarity": "Bronze",
+      "card_set_id": "90000",
+      "threat_level": 2,
+      "reason": "【守护】",
+      "tags": [
+        "ward"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "ward": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=90031120"
+    },
+    "11041120": {
+      "name": "冰锥蜥蜴",
+      "aliases": [
+        "冰锥蜥蜴",
+        "冰錐蜥蜴"
+      ],
+      "cost": 3,
+      "type": "follower",
+      "atk": 2,
+      "life": 2,
+      "rarity": "Bronze",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "【入场曲】发动1次「对对手的战场上的随机1个随从造成3点伤害」。\n【爆能强化_7】改为发动3次。本随从+5/+5。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11041120"
+    },
+    "11041310": {
+      "name": "水龙神的慈雨",
+      "aliases": [
+        "水龙神的慈雨",
+        "水龍神的慈雨"
+      ],
+      "cost": 3,
+      "type": "spell",
+      "atk": 0,
+      "life": 0,
+      "rarity": "Bronze",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "抽取1张卡牌。回复自己的主战者1点生命值。若为【觉醒】，则使自己的能量点最大值+1。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11041310"
+    },
+    "11043310": {
+      "name": "俯瞰的目光",
+      "aliases": [
+        "俯瞰的目光",
+        "俯視的眼神"
+      ],
+      "cost": 3,
+      "type": "spell",
+      "atk": 0,
+      "life": 0,
+      "rarity": "Gold",
+      "card_set_id": "10010",
+      "threat_level": 3,
+      "reason": "【模式】选择2个能力发动。\n（1）召唤1个『好奇的老鼠』。\n（2）使自己的战场上的从左起的2个随从+1/+0。\n（3）将3张『神域的物证』加入手牌。\n（4）对对手的战场上的随机1个随从造成4点伤害。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11043310"
+    },
+    "90051140": {
+      "name": "腐臭的僵尸",
+      "aliases": [
+        "腐臭的僵尸",
+        "腐臭的殭屍"
+      ],
+      "cost": 3,
+      "type": "follower",
+      "atk": 2,
+      "life": 2,
+      "rarity": "Bronze",
+      "card_set_id": "90000",
+      "threat_level": 2,
+      "reason": "【谢幕曲】召唤1个『腐臭的僵尸』，使其失去【谢幕曲】。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=90051140"
+    },
+    "11062110": {
+      "name": "地害驯兽师",
+      "aliases": [
+        "地害驯兽师",
+        "地害調教師"
+      ],
+      "cost": 3,
+      "type": "follower",
+      "atk": 3,
+      "life": 3,
+      "rarity": "Silver",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "【入场曲】将1张『地害之兔』加入手牌。\n【进化时】回复自己1点能量点。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11062110"
+    },
+    "90061110": {
+      "name": "神圣猎鹰",
+      "aliases": [
+        "神圣猎鹰",
+        "神聖獵鷹"
+      ],
+      "cost": 3,
+      "type": "follower",
+      "atk": 2,
+      "life": 2,
+      "rarity": "Bronze",
+      "card_set_id": "90000",
+      "threat_level": 3,
+      "reason": "【疾驰】",
+      "tags": [
+        "storm"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "storm": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=90061110"
+    },
+    "11061310": {
+      "name": "孤高的锻炼",
+      "aliases": [
+        "孤高的锻炼",
+        "孤高的鍛鍊"
+      ],
+      "cost": 3,
+      "type": "spell",
+      "atk": 0,
+      "life": 0,
+      "rarity": "Bronze",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "选择自己的战场上的1个随从，使其+2/+2且获得【屏障】。",
+      "tags": [
+        "barrier"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "barrier": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11061310"
+    },
+    "11063310": {
+      "name": "徒然的证言",
+      "aliases": [
+        "徒然的证言",
+        "無果的證詞"
+      ],
+      "cost": 3,
+      "type": "spell",
+      "atk": 0,
+      "life": 0,
+      "rarity": "Gold",
+      "card_set_id": "10010",
+      "threat_level": 3,
+      "reason": "【模式】选择1个能力发动。\n（1）对对手的战场上的随机1个随从造成4点伤害。使自己获得『纹章：徒然的证言』。\n（2）召唤1个『地害之兔』。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11063310"
+    },
+    "11072110": {
+      "name": "人灭富豪",
+      "aliases": [
+        "人灭富豪",
+        "人滅資產家"
+      ],
+      "cost": 3,
+      "type": "follower",
+      "atk": 1,
+      "life": 2,
+      "rarity": "Silver",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "【入场曲】将2张『神域的物证』加入手牌。\n自己【融合】护符时，对对手的战场上的所有随从造成1点伤害。\n【进化时】抽取1张拥有【融合】的卡牌。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11072110"
+    },
+    "11074120": {
+      "name": "次元异客",
+      "aliases": [
+        "次元异客",
+        "次元漂泊者"
+      ],
+      "cost": 3,
+      "type": "follower",
+      "atk": 2,
+      "life": 1,
+      "rarity": "Legend",
+      "card_set_id": "10010",
+      "threat_level": 5,
+      "reason": "自己进行【融合】时，本随从获得【突进】。\n【谢幕曲】使自己获得『纹章：次元异客』。\n【超进化时】本随从获得【疾驰】。",
+      "tags": [
+        "rush",
+        "storm"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "storm": true,
+        "rush": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11074120"
+    },
+    "90072110": {
+      "name": "攻击创造物",
+      "aliases": [
+        "攻击创造物",
+        "進攻的創造物"
+      ],
+      "cost": 3,
+      "type": "follower",
+      "atk": 5,
+      "life": 1,
+      "rarity": "Silver",
+      "card_set_id": "90000",
+      "threat_level": 3,
+      "reason": "【融合】创造物·卡牌\n根据与本卡牌【融合】的卡牌的费用的合计而变身。\n1⇒『毁灭创造物α』\n2⇒『毁灭创造物β』\n3或以上⇒『毁灭创造物γ』\n【突进】",
+      "tags": [
+        "bane",
+        "rush"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "bane": true,
+        "rush": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=90072110"
+    },
+    "90073110": {
+      "name": "毁灭创造物α",
+      "aliases": [
+        "毁灭创造物α",
+        "破滅的創造物α"
+      ],
+      "cost": 5,
+      "type": "follower",
+      "atk": 3,
+      "life": 5,
+      "rarity": "Gold",
+      "card_set_id": "90000",
+      "threat_level": 3,
+      "reason": "【融合】『毁灭创造物β』或『毁灭创造物γ』\n与本卡牌【融合】时，若与本卡牌【融合】的种类为2，则本卡牌变身为『卓越创造物Ω』。\n自己的回合结束时，回复自己的主战者3点生命值。",
+      "tags": [
+        "bane"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "bane": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=90073110"
+    },
+    "90073120": {
+      "name": "毁灭创造物β",
+      "aliases": [
+        "毁灭创造物β",
+        "破滅的創造物β"
+      ],
+      "cost": 5,
+      "type": "follower",
+      "atk": 4,
+      "life": 4,
+      "rarity": "Gold",
+      "card_set_id": "90000",
+      "threat_level": 3,
+      "reason": "自己的回合结束时，对对手的主战者造成3点伤害。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=90073120"
+    },
+    "90073130": {
+      "name": "毁灭创造物γ",
+      "aliases": [
+        "毁灭创造物γ",
+        "破滅的創造物γ"
+      ],
+      "cost": 5,
+      "type": "follower",
+      "atk": 5,
+      "life": 3,
+      "rarity": "Gold",
+      "card_set_id": "90000",
+      "threat_level": 3,
+      "reason": "自己的回合结束时，对对手的战场上的所有随从造成3点伤害。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=90073130"
+    },
+    "90074110": {
+      "name": "卓越创造物Ω",
+      "aliases": [
+        "卓越创造物Ω",
+        "卓絕的創造物Ω"
+      ],
+      "cost": 10,
+      "type": "follower",
+      "atk": 10,
+      "life": 10,
+      "rarity": "Legend",
+      "card_set_id": "90000",
+      "threat_level": 5,
+      "reason": "【入场曲】对对手的战场上的所有随从造成5点伤害。回复自己的主战者5点生命值。\n【疾驰】\n【守护】\n【灵气】",
+      "tags": [
+        "aura",
+        "storm",
+        "ward"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "ward": true,
+        "storm": true,
+        "aura": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=90074110"
+    },
+    "11013110": {
+      "name": "传心搭档犬",
+      "aliases": [
+        "传心搭档犬",
+        "心契的犬伴"
+      ],
+      "cost": 4,
+      "type": "follower",
+      "atk": 2,
+      "life": 3,
+      "rarity": "Gold",
+      "card_set_id": "10010",
+      "threat_level": 3,
+      "reason": "【入场曲】召唤1张『神域的物证』。\n【疾驰】\n【进化时】若自己的战场上的原始费用为1的卡牌的张数为2张或以上，则召唤1个『好奇的老鼠』。",
+      "tags": [
+        "storm"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "storm": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11013110"
+    },
+    "11032110": {
+      "name": "无聊顾问",
+      "aliases": [
+        "无聊顾问",
+        "清閒的諮詢員"
+      ],
+      "cost": 4,
+      "type": "follower",
+      "atk": 2,
+      "life": 3,
+      "rarity": "Silver",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "在手牌中发动。自己【启动】护符时，使本卡牌的费用-1。\n【入场曲】召唤1张『神域的物证』。\n自己【启动】护符时，回复自己的主战者1点生命值。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11032110"
+    },
+    "11034110": {
+      "name": "迷歌侦探·诺茵华薇儿",
+      "aliases": [
+        "迷歌侦探·诺茵华薇儿",
+        "迷歌偵探‧奈茵赫倫"
+      ],
+      "cost": 4,
+      "type": "follower",
+      "atk": 2,
+      "life": 4,
+      "rarity": "Legend",
+      "card_set_id": "10010",
+      "threat_level": 4,
+      "reason": "【入场曲】召唤1张『神域的物证』。\n自己【启动】护符时，对对手的战场上的随机1个随从造成3点伤害。\n【进化时】使自己获得『纹章：迷歌侦探·诺茵华薇儿』。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11034110"
+    },
+    "11031310": {
+      "name": "工坊搬迁",
+      "aliases": [
+        "工坊搬迁",
+        "搬遷工房"
+      ],
+      "cost": 4,
+      "type": "spell",
+      "atk": 0,
+      "life": 0,
+      "rarity": "Bronze",
+      "card_set_id": "10010",
+      "threat_level": 3,
+      "reason": "召唤3个『泥尘巨像』。\n【爆能强化_8】使其获得【疾驰】。",
+      "tags": [
+        "storm"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "storm": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11031310"
+    },
+    "11043110": {
+      "name": "天噬抢劫犯",
+      "aliases": [
+        "天噬抢劫犯",
+        "天噬搶奪犯"
+      ],
+      "cost": 4,
+      "type": "follower",
+      "atk": 3,
+      "life": 3,
+      "rarity": "Gold",
+      "card_set_id": "10010",
+      "threat_level": 3,
+      "reason": "【入场曲】若自己的手牌中有证据·护符，则舍弃其中随机1张。使自己的能量点最大值+1。\n【进化时】选择对手的战场上的1个随从，对其造成3点伤害。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11043110"
+    },
+    "11051120": {
+      "name": "复仇山羊",
+      "aliases": [
+        "复仇山羊",
+        "復仇的山羊"
+      ],
+      "cost": 4,
+      "type": "follower",
+      "atk": 7,
+      "life": 7,
+      "rarity": "Bronze",
+      "card_set_id": "10010",
+      "threat_level": 4,
+      "reason": "【谢幕曲】对自己的主战者造成2点伤害。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11051120"
+    },
+    "11062120": {
+      "name": "有翼奏者",
+      "aliases": [
+        "有翼奏者",
+        "擁翼奏者"
+      ],
+      "cost": 4,
+      "type": "follower",
+      "atk": 1,
+      "life": 1,
+      "rarity": "Silver",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "【入场曲】召唤1个『神圣猎鹰』。\n【进化时】使自己的战场上的其他所有随从+1/+1。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11062120"
+    },
+    "11003110": {
+      "name": "希求天使·丘丽奥丝",
+      "aliases": [
+        "希求天使·丘丽奥丝",
+        "願求天使‧丘黎思"
+      ],
+      "cost": 5,
+      "type": "follower",
+      "atk": 2,
+      "life": 5,
+      "rarity": "Gold",
+      "card_set_id": "10010",
+      "threat_level": 3,
+      "reason": "【入场曲】对对手的战场上的所有随从造成2点伤害。将2张『神域的物证』加入手牌。\n【守护】",
+      "tags": [
+        "ward"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "ward": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11003110"
+    },
+    "11021120": {
+      "name": "宝石淑女",
+      "aliases": [
+        "宝石淑女",
+        "珠寶淑女"
+      ],
+      "cost": 5,
+      "type": "follower",
+      "atk": 3,
+      "life": 3,
+      "rarity": "Bronze",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "【入场曲】将1张『黄金项链』加入手牌。\n自己使用法术时，自己的每回合中可触发1次，对对手的战场上的所有随从和对手的主战者造成2点伤害。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11021120"
+    },
+    "11033110": {
+      "name": "歌剧助手",
+      "aliases": [
+        "歌剧助手",
+        "歌劇的助手"
+      ],
+      "cost": 5,
+      "type": "follower",
+      "atk": 5,
+      "life": 4,
+      "rarity": "Gold",
+      "card_set_id": "10010",
+      "threat_level": 3,
+      "reason": "【入场曲】召唤1个『碎心勤务员』。\n自己【启动】护符时，对对手的战场上的随机1个随从造成5点伤害。\n【进化时】回复自己1点能量点。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11033110"
+    },
+    "11052110": {
+      "name": "永住守墓人",
+      "aliases": [
+        "永住守墓人",
+        "長居守墓人"
+      ],
+      "cost": 5,
+      "type": "follower",
+      "atk": 4,
+      "life": 4,
+      "rarity": "Silver",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "【入场曲】召唤1个『腐臭的僵尸』。\n自己的卡牌在战场上消失时，若为自己的回合，则使自己的战场上的随机1个亡者·随从+2/+2且获得【突进】。\n【进化时】召唤1张『神域的物证』。",
+      "tags": [
+        "rush"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "rush": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11052110"
+    },
+    "11062310": {
+      "name": "荒废的繁殖",
+      "aliases": [
+        "荒废的繁殖",
+        "荒廢的繁殖"
+      ],
+      "cost": 5,
+      "type": "spell",
+      "atk": 0,
+      "life": 0,
+      "rarity": "Silver",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "召唤2个『地害之兔』。\n【爆能强化_8】改为召唤4个。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11062310"
+    },
+    "11072310": {
+      "name": "毁灭怪腕",
+      "aliases": [
+        "毁灭怪腕",
+        "破滅怪臂"
+      ],
+      "cost": 5,
+      "type": "spell",
+      "atk": 0,
+      "life": 0,
+      "rarity": "Silver",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "【融合】护符\n与本卡牌【融合】时，召唤1张『神域的物证』。\n对对手的战场上的所有随从造成4点伤害。若已与本卡牌【融合】，则改为8点伤害。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11072310"
+    },
+    "11002210": {
+      "name": "弑神现场",
+      "aliases": [
+        "弑神现场",
+        "弒神現場"
+      ],
+      "cost": 6,
+      "type": "amulet",
+      "atk": 0,
+      "life": 0,
+      "rarity": "Silver",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "【吟唱_3】\n自己的回合结束时，使对手的战场上的随机1个随从消失。在对手的战场上召唤1张『神域的物证』。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11002210"
+    },
+    "11014110": {
+      "name": "兽语侦探·诺榭",
+      "aliases": [
+        "兽语侦探·诺榭",
+        "獸言偵探‧諾雪"
+      ],
+      "cost": 6,
+      "type": "follower",
+      "atk": 5,
+      "life": 4,
+      "rarity": "Legend",
+      "card_set_id": "10010",
+      "threat_level": 5,
+      "reason": "【入场曲】召唤1个『传心搭档犬』和1个『好奇的老鼠』。\n【超进化时】使自己的战场上的其他所有随从+2/+0。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11014110"
+    },
+    "11023110": {
+      "name": "安逸爱好家",
+      "aliases": [
+        "安逸爱好家",
+        "安穩的收藏家"
+      ],
+      "cost": 6,
+      "type": "follower",
+      "atk": 5,
+      "life": 1,
+      "rarity": "Gold",
+      "card_set_id": "10010",
+      "threat_level": 3,
+      "reason": "在手牌中发动。自己【启动】证据·护符时，本随从的攻击力与生命值交换。本随从+1/+0。\n【入场曲】召唤2个『纯真卖报人』，使其变为攻击力X/生命值Y。X/Y为本随从的攻击力/生命值。\n【进化时】使自己的战场上的其他所有随从获得【毁灭】。",
+      "tags": [
+        "bane"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "bane": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11023110"
+    },
+    "11032120": {
+      "name": "风暴支配者",
+      "aliases": [
+        "风暴支配者",
+        "暴風雨支配者"
+      ],
+      "cost": 6,
+      "type": "follower",
+      "atk": 5,
+      "life": 5,
+      "rarity": "Silver",
+      "card_set_id": "10010",
+      "threat_level": 2,
+      "reason": "【入场曲】【土之秘术_1】召唤1个『守护者巨像』。\n自己的巨像·随从进入战场时，对对手的战场上的随机1个随从造成3点伤害。\n【进化时】发动与【入场曲】相同的能力。",
+      "tags": [
+        "ward"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "ward": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11032120"
+    },
+    "11054110": {
+      "name": "残思侦探·诺克坦",
+      "aliases": [
+        "残思侦探·诺克坦",
+        "殘思偵探‧洛克塔"
+      ],
+      "cost": 6,
+      "type": "follower",
+      "atk": 4,
+      "life": 4,
+      "rarity": "Legend",
+      "card_set_id": "10010",
+      "threat_level": 5,
+      "reason": "【入场曲】召唤1个『怨灵』，使其获得【毁灭】。\n自己的卡牌在战场上消失时，若为自己的回合，则召唤1个『骸骨士兵』，使其+2/+4且获得【守护】。\n【进化时】将1张『听取遗言』加入手牌。",
+      "tags": [
+        "bane",
+        "ward"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "ward": true,
+        "bane": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11054110"
+    },
+    "11064110": {
+      "name": "地害三恶·拉碧妲赫特",
+      "aliases": [
+        "地害三恶·拉碧妲赫特",
+        "地害三惡‧菈佩妲亨特"
+      ],
+      "cost": 6,
+      "type": "follower",
+      "atk": 4,
+      "life": 4,
+      "rarity": "Legend",
+      "card_set_id": "10010",
+      "threat_level": 5,
+      "reason": "【入场曲】选择对手的战场上的1个随从，使其消失。召唤1个『地害之兔』。\n【进化时】使自己获得『纹章：地害三恶·拉碧妲赫特』。\n【超进化时】使自己的『纹章：地害三恶·拉碧妲赫特』的倒计数+1。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11064110"
+    },
+    "11064120": {
+      "name": "亚教偶像",
+      "aliases": [
+        "亚教偶像",
+        "亞教的偶像"
+      ],
+      "cost": 6,
+      "type": "follower",
+      "atk": 0,
+      "life": 4,
+      "rarity": "Legend",
+      "card_set_id": "10010",
+      "threat_level": 5,
+      "reason": "【威慑】\n【灵气】\n无法攻击随从或主战者。\n对手的随从在战场上消失时，若为自己的回合，则召唤对应数量的复制随从。\n【进化时】选择对手的战场上的1个随从，使其消失。",
+      "tags": [
+        "aura",
+        "intimidate"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "intimidate": true,
+        "aura": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11064120"
+    },
+    "11071120": {
+      "name": "异界来访者",
+      "aliases": [
+        "异界来访者",
+        "異界的來訪者"
+      ],
+      "cost": 6,
+      "type": "follower",
+      "atk": 4,
+      "life": 4,
+      "rarity": "Bronze",
+      "card_set_id": "10010",
+      "threat_level": 3,
+      "reason": "【疾驰】\n【灵气】",
+      "tags": [
+        "aura",
+        "storm"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "storm": true,
+        "aura": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11071120"
+    },
+    "11072120": {
+      "name": "发射器猫人",
+      "aliases": [
+        "发射器猫人",
+        "兵器砲貓"
+      ],
+      "cost": 6,
+      "type": "follower",
+      "atk": 6,
+      "life": 4,
+      "rarity": "Silver",
+      "card_set_id": "10010",
+      "threat_level": 4,
+      "reason": "【入场曲】召唤1个『攻击创造物』和1个『古老的创造物』。\n【突进】",
+      "tags": [
+        "rush"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "rush": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11072120"
+    },
+    "11011120": {
+      "name": "群狼侍者",
+      "aliases": [
+        "群狼侍者",
+        "群狼的侍奉者"
+      ],
+      "cost": 7,
+      "type": "follower",
+      "atk": 4,
+      "life": 3,
+      "rarity": "Bronze",
+      "card_set_id": "10010",
+      "threat_level": 4,
+      "reason": "【入场曲】召唤2个『群狼侍者』。\n【突进】\n【进化时】发动与【入场曲】相同的能力。",
+      "tags": [
+        "rush"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "rush": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11011120"
+    },
+    "11022120": {
+      "name": "变心卫士",
+      "aliases": [
+        "变心卫士",
+        "變心的衛士"
+      ],
+      "cost": 7,
+      "type": "follower",
+      "atk": 8,
+      "life": 8,
+      "rarity": "Silver",
+      "card_set_id": "10010",
+      "threat_level": 4,
+      "reason": "【入场曲】若自己的战场上有护符，则选择对手的战场上的1个随从，使其消失。\n【守护】\n【超进化时】发动与【入场曲】相同的能力。",
+      "tags": [
+        "ward"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "ward": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11022120"
+    },
+    "11021310": {
+      "name": "突击号令",
+      "aliases": [
+        "突击号令",
+        "突擊號令"
+      ],
+      "cost": 7,
+      "type": "spell",
+      "atk": 0,
+      "life": 0,
+      "rarity": "Bronze",
+      "card_set_id": "10010",
+      "threat_level": 4,
+      "reason": "召唤2个『铁甲骑士』，使其进化，使其获得【屏障】。",
+      "tags": [
+        "barrier"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "barrier": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11021310"
+    },
+    "11042110": {
+      "name": "天噬运货人",
+      "aliases": [
+        "天噬运货人",
+        "天噬走私者"
+      ],
+      "cost": 7,
+      "type": "follower",
+      "atk": 5,
+      "life": 5,
+      "rarity": "Silver",
+      "card_set_id": "10010",
+      "threat_level": 4,
+      "reason": "【入场曲】选择对手的战场上的2个随从，破坏这些随从。将2张『神域的物证』加入手牌。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11042110"
+    },
+    "11052120": {
+      "name": "桀骜半人马",
+      "aliases": [
+        "桀骜半人马",
+        "不馴的人馬"
+      ],
+      "cost": 7,
+      "type": "follower",
+      "atk": 6,
+      "life": 6,
+      "rarity": "Silver",
+      "card_set_id": "10010",
+      "threat_level": 4,
+      "reason": "【突进】\n【攻击时】【唤灵_4】对对手的战场上的所有随从造成4点伤害。",
+      "tags": [
+        "rush"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "rush": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11052120"
+    },
+    "11053110": {
+      "name": "鬼录护士",
+      "aliases": [
+        "鬼录护士",
+        "鬼錄護士"
+      ],
+      "cost": 7,
+      "type": "follower",
+      "atk": 6,
+      "life": 6,
+      "rarity": "Gold",
+      "card_set_id": "10010",
+      "threat_level": 4,
+      "reason": "【入场曲】召唤1个『怨灵』，使其获得【毁灭】。\n自己的卡牌在战场上消失时，若为自己的回合，则回复自己的主战者2点生命值。\n【超进化时】发动与【入场曲】相同的能力。",
+      "tags": [
+        "bane"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "bane": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11053110"
+    },
+    "11061120": {
+      "name": "斗志修行僧",
+      "aliases": [
+        "斗志修行僧",
+        "鬥意修行僧"
+      ],
+      "cost": 7,
+      "type": "follower",
+      "atk": 4,
+      "life": 4,
+      "rarity": "Bronze",
+      "card_set_id": "10010",
+      "threat_level": 4,
+      "reason": "【突进】\n1回合可以攻击2次。\n【攻击时】本随从+2/+2且获得【屏障】。",
+      "tags": [
+        "barrier",
+        "rush"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "rush": true,
+        "barrier": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11061120"
+    },
+    "11014120": {
+      "name": "播撒生命的异形",
+      "aliases": [
+        "播撒生命的异形",
+        "播撒生命的異種"
+      ],
+      "cost": 8,
+      "type": "follower",
+      "atk": 6,
+      "life": 6,
+      "rarity": "Legend",
+      "card_set_id": "10010",
+      "threat_level": 5,
+      "reason": "【入场曲】发动2次「抽取1张卡牌，召唤其中的所有精灵·随从」。\n【超进化时】发动与【入场曲】相同的能力。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11014120"
+    },
+    "11034120": {
+      "name": "劫焰奇美拉",
+      "aliases": [
+        "劫焰奇美拉"
+      ],
+      "cost": 8,
+      "type": "follower",
+      "atk": 8,
+      "life": 8,
+      "rarity": "Legend",
+      "card_set_id": "10010",
+      "threat_level": 5,
+      "reason": "【入场曲】对对手的战场上的所有随从和对手的主战者分配X点伤害。X为自己的战场上的土之印数。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11034120"
+    },
+    "11063110": {
+      "name": "地害矫正者",
+      "aliases": [
+        "地害矫正者",
+        "地害矯正者"
+      ],
+      "cost": 8,
+      "type": "follower",
+      "atk": 3,
+      "life": 5,
+      "rarity": "Gold",
+      "card_set_id": "10010",
+      "threat_level": 4,
+      "reason": "【入场曲】选择对手的战场上的1个随从，使其消失。召唤2个『地害之兔』。\n【超进化时】抽取2张卡牌。回复自己的主战者2点生命值。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11063110"
+    },
+    "11073110": {
+      "name": "人灭绅士",
+      "aliases": [
+        "人灭绅士",
+        "人滅紳士"
+      ],
+      "cost": 8,
+      "type": "follower",
+      "atk": 6,
+      "life": 6,
+      "rarity": "Gold",
+      "card_set_id": "10010",
+      "threat_level": 4,
+      "reason": "【入场曲】将2张『神域的物证』加入手牌。\n自己【融合】护符时，破坏对手的战场上的随机1个随从。回复自己的主战者2点生命值。\n【守护】",
+      "tags": [
+        "ward"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "ward": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11073110"
+    },
+    "11004110": {
+      "name": "理想国之神·列加尔",
+      "aliases": [
+        "理想国之神·列加尔",
+        "理想鄉之神‧勒澤爾"
+      ],
+      "cost": 9,
+      "type": "follower",
+      "atk": 9,
+      "life": 9,
+      "rarity": "Legend",
+      "card_set_id": "10010",
+      "threat_level": 5,
+      "reason": "【入场曲】选择对手的战场上的1个随从，对其造成9点伤害。\n【超进化时】使自己获得『纹章：理想国之神·列加尔』。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11004110"
+    },
+    "11024110": {
+      "name": "表里侦探·诺·莱芙",
+      "aliases": [
+        "表里侦探·诺·莱芙",
+        "表裡偵探‧諾萊芬"
+      ],
+      "cost": 9,
+      "type": "follower",
+      "atk": 5,
+      "life": 6,
+      "rarity": "Legend",
+      "card_set_id": "10010",
+      "threat_level": 5,
+      "reason": "在手牌中发动。自己【启动】证据·护符时，本随从的攻击力与生命值交换。本随从+1/+0。\n【入场曲】召唤1个本随从的复制随从。若本随从的攻击力小于生命值，则使复制随从获得【毁灭】。本随从获得【虹吸】。若攻击力大于生命值，则使复制随从获得【守护",
+      "tags": [
+        "bane",
+        "rush",
+        "storm",
+        "ward"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "ward": true,
+        "bane": true,
+        "storm": true,
+        "rush": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11024110"
+    },
+    "11074110": {
+      "name": "人灭三恶·兰佩吉",
+      "aliases": [
+        "人灭三恶·兰佩吉",
+        "人滅三惡‧朗班契"
+      ],
+      "cost": 9,
+      "type": "follower",
+      "atk": 7,
+      "life": 7,
+      "rarity": "Legend",
+      "card_set_id": "10010",
+      "threat_level": 5,
+      "reason": "【融合】护符\n与本卡牌【融合】时，召唤1张『神域的物证』。\n【入场曲】选择对手的战场上的1个随从，破坏对手的战场上的所有与其同名的随从。若已与本卡牌【融合】，则使对手的主战者的生命值的最大值变为一半。",
+      "tags": [],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {},
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11074110"
+    },
+    "11044110": {
+      "name": "天噬三恶·莱特欧芙",
+      "aliases": [
+        "天噬三恶·莱特欧芙",
+        "天噬三惡‧萊朵歐芙"
+      ],
+      "cost": 10,
+      "type": "follower",
+      "atk": 8,
+      "life": 10,
+      "rarity": "Legend",
+      "card_set_id": "10010",
+      "threat_level": 5,
+      "reason": "【入场曲】使自己的牌组中的所有原始费用为4或以下的卡牌消失。舍弃自己的手牌中的所有证据·护符。发动X次「对对手的战场上的随机1个随从造成8点伤害」。X为因本能力舍弃的张数。\n【疾驰】",
+      "tags": [
+        "storm"
+      ],
+      "confidence": "verified",
+      "card_text_verified": true,
+      "match_verified": true,
+      "abilities": {
+        "storm": true
+      },
+      "answers": [
+        "targeted_destroy",
+        "aoe_removal",
+        "efficient_combat"
+      ],
+      "source": "https://shadowverse-wb.com/chs/deck/cardslist/card/?card_id=11044110"
+    }
+  },
+  "classes": {
+    "elf": {
+      "status": "active",
+      "key_turns": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "response": "Maintain leader-attack chain every turn; leverage discard tempo and storm burst."
+    },
+    "royal": {
+      "status": "active",
+      "key_turns": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "response": "Maintain leader-attack chain every turn; leverage discard tempo and storm burst."
+    },
+    "witch": {
+      "status": "active",
+      "key_turns": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "response": "Maintain leader-attack chain every turn; leverage discard tempo and storm burst."
+    },
+    "dragon": {
+      "status": "active",
+      "key_turns": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "response": "Maintain leader-attack chain every turn; leverage discard tempo and storm burst."
+    },
+    "nightmare": {
+      "status": "active",
+      "key_turns": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "response": "Maintain leader-attack chain every turn; leverage discard tempo and storm burst."
+    },
+    "bishop": {
+      "status": "active",
+      "key_turns": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "response": "Maintain leader-attack chain every turn; leverage discard tempo and storm burst."
+    },
+    "nemesis": {
+      "status": "active",
+      "key_turns": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "response": "Maintain leader-attack chain every turn; leverage discard tempo and storm burst."
+    }
+  },
+  "matchup": "rotation_ranked",
+  "limitations": [
+    "Tracks attacked_leader_last_turn across turns to activate combo effects.",
+    "Opponent hidden hand and draw order are not available. Unknown opponent identities never block play."
+  ]
+}

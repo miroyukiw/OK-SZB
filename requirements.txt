@@ -1,0 +1,6 @@
+MaaFw==5.14.2
+MaaAgentBinary==1.0.1
+numpy==2.5.4
+opencv-python==5.0.0.93
+pillow==12.3.0
+StrEnum==0.4.15

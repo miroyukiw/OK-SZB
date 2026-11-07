@@ -1,0 +1,4 @@
+{
+  "ReadScreen": {"recognition": "OCR", "expected": [".*"], "action": "DoNothing"},
+  "CPUOnly": {"recognition": "DirectHit", "action": "Custom", "custom_action": "CPUOnly"}
+}
